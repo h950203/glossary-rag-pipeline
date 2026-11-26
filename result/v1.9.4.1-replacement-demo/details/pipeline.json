@@ -1,0 +1,40 @@
+{
+  "config": {
+    "alignment_result": null,
+    "train_en": null,
+    "train_ko": null,
+    "train_json": "/home/hjs/PP/glossary-rag-pipeline/examples/demo-10/train.json",
+    "eval_en": null,
+    "eval_ko": null,
+    "eval_json": "/home/hjs/PP/glossary-rag-pipeline/examples/demo-10/eval.json",
+    "filter_glossary": null,
+    "eval_glossary": null,
+    "taxonomy_file": null,
+    "reference_file": null,
+    "gold_file": null,
+    "comet_checkpoint": null,
+    "domain": "의학/간호학",
+    "python": "/opt/conda/envs/nmt/bin/python",
+    "eval_python": null,
+    "bge_model": "BAAI/bge-m3",
+    "gemma_model": "google/gemma-4-12B-it",
+    "gemma_revision": "43c9d014b231474fa7212dbb48a762566c2b255d",
+    "load_in_4bit": true,
+    "local_files_only": true,
+    "allow_record_errors": true,
+    "max_sentences": 0,
+    "eval_limit": 0,
+    "batch_size": 2
+  },
+  "completed": {
+    "04-word-domain-check": "details/04-word-domain-check/attempt-5bpvbgde",
+    "05-glossary": "details/05-glossary/attempt-dql_ttxd",
+    "06-sentence-selection": "details/06-sentence-selection/attempt-bb94ewgw",
+    "07-translation": "details/07-translation/attempt-qz2rfrdj",
+    "08-evaluation": "details/08-evaluation/attempt-uoa14rjk"
+  },
+  "start_stage": 4,
+  "imported_inputs": {
+    "03-domain-review-input.jsonl": "/home/hjs/PP/word-domain-check_v1.9.4.1/result/smoke-pipeline-demo-10/03-domain-review-input.jsonl"
+  }
+}

@@ -1,0 +1,48 @@
+line_id,type,ko_surface,en_surface,ko_canonical,en_canonical,score
+1,nominal,조사,survey,조사,survey,0.6993207931518555
+1,nominal,간호사,nurses,간호사,nurse,0.7345638275146484
+1,verbal,조사하였다,examine,조사하다,examine,0.7598096132278442
+1,nominal,문제,problems,문제,problem,0.8288265466690063
+1,nominal,언어,language,언어,language,0.8080253601074219
+1,nominal,표현,expressions,표현,expression,0.7561947107315063
+1,nominal,이해도,comprehension,이해도,comprehension,0.7747846841812134
+1,nominal,시간,time,시간,time,0.8252825736999512
+1,verbal,소요되는,needed,소요되다,need,0.7816809415817261
+1,nominal,설문지,questionnaire,설문지,questionnaire,0.7592642307281494
+2,nominal,수,number,수,number,0.8362504839897156
+2,verbal,이수한,completed,이수하다,complete,0.8014549612998962
+2,nominal,간호사,nurses,간호사,nurse,0.7631385326385498
+2,nominal,임상등급,clinical grade,임상 등급,clinical grade,0.8027087450027466
+2,verbal,상승할,increased,상승하다,increase,0.827664852142334
+2,nominal,교육,education,교육,education,0.8282892107963562
+3,verbal,받은,received,받다,receive,0.8535118103027344
+4,nominal,학생,students,학생,student,0.8267923593521118
+4,verbal,받아야,trained,받다,train,0.7092559933662415
+4,nominal,비판적 사고,critical thinking,비판적 사고,critical thinking,0.7736474275588989
+4,nominal,올바른 간호진단,correct nursing diagnosis,올바른 간호 진단,correct nursing diagnosis,0.7982110977172852
+5,nominal,일반적 특성,general characteristics,일반적 특성,general characteristic,0.7251322269439697
+5,nominal,연구방법,research methods,연구 방법,research method,0.759257435798645
+5,nominal,간호,nursing,간호,nursing,0.6532911658287048
+5,verbal,하였다,based,하다,base,0.6881961822509766
+5,nominal,AAA,AAA,aaa,aaa,0.859555721282959
+6,verbal,해당하는,shows,해당하다,show,0.6120819449424744
+6,nominal,유형,types,유형,type,0.8069876432418823
+6,nominal,독립변수,independent variables,독립 변수,independent variable,0.7936168909072876
+7,verbal,사료된다,considered,사료되다,consider,0.731117308139801
+7,nominal,효율적인 간호,effective nursing,효율적인 간호,effective nursing,0.7385237216949463
+7,verbal,도모할,promote,도모하다,promote,0.7152113318443298
+7,nominal,안정,stability,안정,stability,0.7661993503570557
+7,nominal,임부,pregnant women,임부,pregnant woman,0.709597110748291
+7,verbal,경험한,experienced,경험하다,experience,0.7826981544494629
+8,nominal,결과,results,결과,result,0.8478124141693115
+8,verbal,분석한,analyzing,분석하다,analyze,0.831497311592102
+8,nominal,종속변수의 종류,type of dependent variable,종속 변수의 종류,type of dependent variable,0.7579202651977539
+8,nominal,연구 논문,research papers,연구 논문,research paper,0.827859103679657
+9,nominal,분석도구,analysis tool,분석 도구,analysis tool,0.7468912601470947
+9,nominal,영역,areas,영역,area,0.7873141765594482
+9,nominal,업무,work,업무,work,0.7591873407363892
+9,nominal,행위,actions,행위,action,0.8032187223434448
+9,verbal,제시하였다,presented,제시하다,present,0.8054646849632263
+10,nominal,신규 간호사,new nurse,신규 간호사,new nurse,0.8868421316146851
+10,verbal,변해,changing,변하다,change,0.8873652219772339
+10,nominal,시간,time,시간,time,0.878928542137146

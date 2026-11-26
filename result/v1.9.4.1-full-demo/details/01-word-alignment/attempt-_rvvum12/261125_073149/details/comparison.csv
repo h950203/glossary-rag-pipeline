@@ -1,0 +1,11 @@
+line_id,row_id,comparable,common_pairs,C_nltk_treebank_pairs,C_nltk_treebank_added,C_nltk_treebank_removed
+1,2aad342aed62beab7d316c4a,True,9,9,0,0
+2,bbae46a1d98f94ecf8c358fa,True,4,4,0,0
+3,bd4dd7d949266ac0ecf0ab75,True,1,1,0,0
+4,9623a9a03c868a0eeabc4ad6,True,7,7,0,0
+5,d49b86027bfe29395afde1de,True,6,6,0,0
+6,01b722f75e86c25f2bbf15fe,True,5,5,0,0
+7,bccd57af5240531c9f97f6e3,True,7,7,0,0
+8,0dd85519b3afc7c224d1b514,True,6,6,0,0
+9,3b26558bf61dfa886dbd256e,True,5,5,0,0
+10,a905d05a7d5ff48f51c9511d,True,4,4,0,0

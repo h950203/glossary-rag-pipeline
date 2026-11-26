@@ -1,0 +1,29 @@
+{
+  "project": "word-similar-v1.3",
+  "status": "complete",
+  "result_dir": "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/02-word-similar/attempt-4gmmwvud/261125_073258",
+  "local_started_at": "2026-11-25T07:32:58.523101+00:00",
+  "input": "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/01-word-alignment/attempt-_rvvum12/261125_073149/term-pairs.jsonl",
+  "alignment_method": "C_nltk_treebank",
+  "start": 1,
+  "unit_types": [
+    "nominal",
+    "verbal"
+  ],
+  "mode": "covered_expansions_small_sample",
+  "sentence_count": 10,
+  "sample_sha256": "1f62be6f9fab370037e104eb659b13b405f3cb03f871ba75b84a87815c329b7a",
+  "primary_method": "3B_evidence",
+  "methods": [
+    "3B_evidence"
+  ],
+  "public_files": {
+    "3B_evidence": {
+      "groups-simple.csv": "groups-simple.csv",
+      "group-pairs.csv": "group-pairs.csv"
+    }
+  },
+  "sentence_candidates": "3_complete.jsonl",
+  "last_elapsed_seconds": 0.042,
+  "local_finished_at": "2026-11-25T07:32:58.565263+00:00"
+}

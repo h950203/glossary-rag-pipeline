@@ -1,0 +1,4 @@
+{"source_a_id": "KO_0001", "source_b_id": "EN_0001", "surface_a": "시간", "canonical_a": "시간", "surface_b": "time", "canonical_b": "time", "category": "single_noun"}
+{"source_a_id": "KO_0001", "source_b_id": "EN_0001", "surface_a": "간호사", "canonical_a": "간호사", "surface_b": "nurse", "canonical_b": "nurse", "category": "single_noun"}
+{"source_a_id": "KO_0002", "source_b_id": "EN_0002", "surface_a": "간호사", "canonical_a": "간호사", "surface_b": "nurse", "canonical_b": "nurse", "category": "single_noun"}
+{"source_a_id": "KO_0010", "source_b_id": "EN_0010", "surface_a": "시간", "canonical_a": "시간", "surface_b": "time", "canonical_b": "time", "category": "single_noun"}

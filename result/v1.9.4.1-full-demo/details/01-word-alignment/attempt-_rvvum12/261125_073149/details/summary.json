@@ -1,0 +1,28 @@
+{
+  "run_id": "79dd93f4a93b4745b8e7831f28e61641",
+  "engine": "C_bge",
+  "counts_are_accuracy_metrics": false,
+  "methods": {
+    "C_nltk_treebank": {
+      "status": "complete",
+      "path": "methods/C_nltk_treebank/alignments.jsonl",
+      "sha256": "1a1edb79a7fd7aa76727ae3057753cb332c42b68ac8a786b167c18931ed2baac",
+      "alignment_signature": "6fb2dc457bbd3b31157598013d09d1774e2c52fba5f3db591de6a2d75d368fd6",
+      "profile": {
+        "en": "nltk_treebank",
+        "ko": "kiwi_compound",
+        "description": "영어만 NLTK Treebank로 교체"
+      },
+      "counts": {
+        "sentences": 10,
+        "status_aligned": 10,
+        "en_tokens": 212,
+        "ko_tokens": 248,
+        "pairs": 54,
+        "word_pairs": 34,
+        "phrase_pairs": 20
+      },
+      "elapsed_seconds_shared": 7.835
+    }
+  }
+}

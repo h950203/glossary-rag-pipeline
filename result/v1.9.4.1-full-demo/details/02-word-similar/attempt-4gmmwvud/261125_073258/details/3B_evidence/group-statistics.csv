@@ -1,0 +1,12 @@
+﻿language,unit_type,length_unit,length,representatives,members
+ko,nominal,word_count,1,2,2
+ko,nominal,token_count,1,2,2
+ko,nominal,character_count,2,1,1
+ko,nominal,character_count,3,1,1
+ko,verbal,word_count,1,1,1
+ko,verbal,token_count,1,1,1
+ko,verbal,character_count,2,1,1
+en,nominal,word_count,1,2,2
+en,nominal,token_count,1,2,2
+en,nominal,character_count,4,1,1
+en,nominal,character_count,5,1,1

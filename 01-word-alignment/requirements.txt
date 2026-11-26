@@ -1,0 +1,11 @@
+# Install a CPU/CUDA PyTorch build matching the machine first. No fast_align needed.
+kiwipiepy==0.24.1
+spacy>=3.8,<4
+nltk==3.10.4
+numpy>=1.26,<3
+torch>=2.6,<3
+transformers>=4.45,<6
+huggingface-hub>=0.24,<2
+# BGE-M3's SentencePiece tokenizer may need conversion to a fast tokenizer.
+sentencepiece>=0.2,<1
+protobuf>=4,<7

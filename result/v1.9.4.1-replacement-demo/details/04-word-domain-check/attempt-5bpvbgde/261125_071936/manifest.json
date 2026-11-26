@@ -1,0 +1,41 @@
+{
+  "version": "1.9.4.1",
+  "profile": "child_review",
+  "inference": {
+    "model": "google/gemma-4-12B-it",
+    "revision": "43c9d014b231474fa7212dbb48a762566c2b255d",
+    "load_in_4bit": true,
+    "max_input_tokens": 8192,
+    "max_new_tokens": 768,
+    "max_retry_tokens": 1536,
+    "initial_examples": 1,
+    "max_examples": 3,
+    "response_retries": 1
+  },
+  "input_sha256": "33a00cd7b69a43380ff58b12aa5c069ac4d6248c6f6c295864f2da2aa00939f4",
+  "selected_ids": [
+    "L000001",
+    "L000002"
+  ],
+  "taxonomy_sha256": "a30ceab6377444c63463f0e7a00560492827461ab9c60a57dee711294c7f076f",
+  "target": {
+    "path": "의학/간호학",
+    "major": "의학",
+    "minor": "간호학"
+  },
+  "prompt_sha256": "aab00c939cfa63d6b73c5002281dfabd3e57a2d4e897b30d6d3a32ba6eaa6f69",
+  "code_sha256": {
+    "experiment.py": "a693bc47104269bb80259d2602ac7d2e88e80d31fa77f013fc09a74d31c67b55",
+    "assessment.py": "b2c6975814f656ff78e7ba47d8d7c3d13ff1b0b95e5048e6b3c08288256e43e4",
+    "variants.py": "be1ade64ebe88d6d3e8a4df12a6a3cc7265003440ab3feb2a208c956d1137996",
+    "gemma_backend.py": "45cb3fc96b70279994dd6944cb47b7856d37af6e3f5018fac5ef328fe78fde7d",
+    "taxonomy.py": "fd5f1e37ee7982e019beeebb7128ffc982a8bed97dc4454544cccded96da7346",
+    "contracts.py": "d11f11470566025ba3a2023983a2a9d05d427ecdcbb7500e5917b4b383d9c739",
+    "storage.py": "ee027bdce95093e177cf168cc385e464675abe8b7d5f3511e8d0bad748d233c9"
+  },
+  "input": "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-replacement-demo/details/imported-6h5zeldl/03-domain-review-input.jsonl",
+  "benchmarks": {},
+  "allow_record_errors": true,
+  "review_basis": "context_and_model",
+  "externally_verified": false
+}

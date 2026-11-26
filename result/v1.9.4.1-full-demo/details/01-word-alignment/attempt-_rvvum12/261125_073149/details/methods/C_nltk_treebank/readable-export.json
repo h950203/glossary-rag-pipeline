@@ -1,0 +1,20 @@
+{
+  "source": "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/01-word-alignment/attempt-_rvvum12/261125_073149/details/methods/C_nltk_treebank/alignments.jsonl",
+  "source_sha256": "1a1edb79a7fd7aa76727ae3057753cb332c42b68ac8a786b167c18931ed2baac",
+  "include_punctuation": false,
+  "counts": {
+    "raw_pairs": 54,
+    "hidden_punctuation_pairs": 6,
+    "sentences": 10,
+    "visible_pairs": 48,
+    "sentences_without_visible_pairs": 1
+  },
+  "statuses": {
+    "aligned": 10
+  },
+  "files": {
+    "alignments-readable.txt": "5112b3be10d0382f27fb33aacab37383fc29c64308d6b9408c5486a65cab6c6c",
+    "alignments-simple.jsonl": "baf789c48b4ff80dc8f857acb73e87e46d8e0e306033a3cead7ebe843c224253",
+    "pairs.csv": "308735d995fc4a9437180910e2ccd3cad5bcc19bc8d69de853a095f30395c3cf"
+  }
+}

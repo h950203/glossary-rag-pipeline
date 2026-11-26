@@ -1,0 +1,23 @@
+{
+  "project": "word-alignment-v1.4",
+  "status": "complete",
+  "result_dir": "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/01-word-alignment/attempt-_rvvum12/261125_073149",
+  "local_started_at": "2026-11-25T07:31:49.479527+00:00",
+  "primary_method": "C_nltk_treebank",
+  "public_files": {
+    "C_nltk_treebank": {
+      "alignments-readable.txt": "alignments-readable.txt",
+      "review_candidates.jsonl": "review_candidates.jsonl",
+      "review_template.jsonl": "review_template.jsonl",
+      "term-pairs.jsonl": "term-pairs.jsonl"
+    }
+  },
+  "methods": [
+    "C_nltk_treebank"
+  ],
+  "tokenize_only": false,
+  "command": "run",
+  "gemma_selection": "details/gemma-summary.json",
+  "last_elapsed_seconds": 67.686,
+  "local_finished_at": "2026-11-25T07:32:57.165340+00:00"
+}

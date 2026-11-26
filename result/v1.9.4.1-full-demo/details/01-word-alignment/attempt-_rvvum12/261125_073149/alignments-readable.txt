@@ -1,0 +1,89 @@
+
+[1] C_nltk_treebank | status=aligned
+KO: 간호사를 대상으로 한 시범 조사를 통해 언어 표현 문제, 이해도, 설문지 작성에 소요되는 시간 등을 조사하였다.
+EN: A pilot survey was conducted among nurses to examine problems of language expressions, the degree of comprehension and time needed to complete the questionnaire.
+  을 조사 ↔ to examine  | 유사도 0.802  | phrase
+  문제 ↔ problems  | 유사도 0.829  | word
+  언어 ↔ language  | 유사도 0.808  | word
+  표현 ↔ expressions  | 유사도 0.756  | word
+  에 ↔ of  | 유사도 0.807  | word
+  이해도 ↔ comprehension and  | 유사도 0.782  | phrase
+  시간 ↔ time  | 유사도 0.825  | word
+  설문지 ↔ the questionnaire  | 유사도 0.765  | phrase
+
+[2] C_nltk_treebank | status=aligned
+KO: 간호사가 이수한 전문 교육과정의 수는 평균 2.6±2.44개이 며 임상등급이 상승할 수록 많은 교육을 이수하였다.
+EN: The average number of professional training courses completed by nurses was 2.6±2.44, and as the clinical grade increased, more education was completed.
+  평균 ↔ average  | 유사도 0.852  | word
+  전문 ↔ of professional  | 유사도 0.820  | phrase
+  상승 ↔ increased  | 유사도 0.860  | word
+  은 교육 ↔ more education was  | 유사도 0.838  | phrase
+
+[3] C_nltk_treebank | status=aligned
+KO: 다문화에 대한 교육을 받은 간호사일수록 다문화에 대한 교육 욕구가 증가한다고 하였다.
+EN: It was said that nurses who received multicultural education, the more they wanted to be educated about multiculturalism.
+  (표시할 대응쌍 없음)
+
+[4] C_nltk_treebank | status=aligned
+KO: 간호 학생은 올바른 간호진단을 공식화하기 위해 비판적 사고와 평가에 대한 훈련을 받아야 한다.
+EN: Nursing students should be trained in critical thinking and assessment in order to formulate a correct nursing diagnosis.
+  학생 ↔ students  | 유사도 0.827  | word
+  훈련을 받 ↔ be trained in  | 유사도 0.820  | phrase
+  와 ↔ and  | 유사도 0.846  | word
+  에 ↔ in  | 유사도 0.842  | word
+  올바른 ↔ a correct  | 유사도 0.825  | phrase
+  간호진단 ↔ nursing diagnosis  | 유사도 0.787  | phrase
+
+[5] C_nltk_treebank | status=aligned
+KO: 본 연구 논문의 분석 기준으로 변비 간호 중재 관련 일반적 특성과 연구방법은 AAA의 분석 연구를 기초로 하였다.
+EN: The general characteristics and research methods related to constipation nursing interventions were based on the analysis of AAA.
+  일반적 ↔ The general  | 유사도 0.749  | phrase
+  특성 ↔ characteristics  | 유사도 0.716  | word
+  과 ↔ and  | 유사도 0.805  | word
+  관련 ↔ related  | 유사도 0.779  | word
+  기초로 ↔ based on  | 유사도 0.832  | phrase
+  AAA ↔ AAA  | 유사도 0.860  | word
+
+[6] C_nltk_treebank | status=aligned
+KO: 독립변수에 해당하는 변비 간호 중재의 유형은 Table 2와 같다.
+EN: Table 2 shows the types of constipation nursing interventions that are independent variables.
+  Table ↔ Table  | 유사도 0.856  | word
+  2 ↔ 2  | 유사도 0.843  | word
+  유형 ↔ types  | 유사도 0.807  | word
+  독립변수 ↔ independent variables  | 유사도 0.794  | phrase
+
+[7] C_nltk_treebank | status=aligned
+KO: 따라서 유산을 경험한 임부의 정서적인 안정을 도모할 수 있는 효율적인 간호 중재가 필요하다고 사료된다.
+EN: Therefore, it is considered that effective nursing interventions to promote emotional stability of pregnant women who have experienced abortion are necessary.
+  따라서 ↔ Therefore  | 유사도 0.827  | word
+  는 효율적 ↔ that effective  | 유사도 0.768  | phrase
+  간호 중재가 ↔ nursing  | 유사도 0.698  | phrase
+  할 ↔ to  | 유사도 0.791  | word
+  안정 ↔ stability  | 유사도 0.766  | word
+  의 ↔ of  | 유사도 0.793  | word
+  경험 ↔ experienced  | 유사도 0.795  | word
+
+[8] C_nltk_treebank | status=aligned
+KO: 총 87편의 실험 연구 논문에서 간호 중재의 종류와 종속변수의 종류를 분석한 결과는 다음과 같다.
+EN: The results of analyzing the type of nursing intervention and the type of dependent variable in a total of 87 experimental research papers are as follows.
+  결과 ↔ results of  | 유사도 0.855  | phrase
+  와 ↔ and  | 유사도 0.824  | word
+  총 ↔ total of  | 유사도 0.849  | phrase
+  87 ↔ 87  | 유사도 0.890  | word
+  연구 논문 ↔ research papers  | 유사도 0.828  | phrase
+
+[9] C_nltk_treebank | status=aligned
+KO: 기존의 포괄병동 간호사 간호직무 분석도구에서는 12개의 간호 영역과 149개의 간호 업무 행위를 제시하였다.
+EN: In the existing nursing job analysis tool of nurse in the comprehensive nursing and care service ward, 12 nursing areas and 149 nursing work actions were presented.
+  의 ↔ the  | 유사도 0.799  | word
+  12 ↔ 12  | 유사도 0.895  | word
+  영역 ↔ areas  | 유사도 0.787  | word
+  과 149개 ↔ and 149  | 유사도 0.875  | phrase
+  제시하 ↔ were presented  | 유사도 0.844  | phrase
+
+[10] C_nltk_treebank | status=aligned
+KO: 신규 간호사는 시간이 지남에 따라 긍정적으로 변해가는 나를 발견하게 되었다.
+EN: The new nurse found me changing positively over time.
+  신규 ↔ new  | 유사도 0.910  | word
+  따라 긍정적으로 ↔ positively  | 유사도 0.902  | phrase
+  시간이 지남 ↔ time  | 유사도 0.887  | phrase

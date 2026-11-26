@@ -1,0 +1,27 @@
+{
+  "groups_csv": "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/02-word-similar/attempt-4gmmwvud/261125_073258/groups-simple.csv",
+  "alignments": "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/02-word-similar/attempt-4gmmwvud/261125_073258/details/sources.jsonl",
+  "output": "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/02-word-similar/attempt-4gmmwvud/261125_073258/3_complete.jsonl",
+  "groups_sha256": "219fe5849b3d7f6c83f4a9b51a940ab1f53a9fb4cc8ffbd180fb3cd466a2c8a2",
+  "alignments_sha256": "81ba40066fba893cd8cdc2db8bbf7f6e72cdbe1821890cd1dd27bee261fd6cb0",
+  "format": "jsonl",
+  "candidate_form": "representative",
+  "require_both": false,
+  "source_format": "grouping_sources",
+  "include_occurrences": false,
+  "matching": "exact_language_unit_type_normalized_in_aligned_pairs",
+  "representatives": 5,
+  "matched_representatives": 5,
+  "unmatched_representatives": 0,
+  "counts": {
+    "input_sentences": 10,
+    "output_sentences": 5,
+    "ko_candidate_entries": 6,
+    "en_candidate_entries": 5,
+    "both_languages": 3,
+    "one_language": 2,
+    "skipped_no_representatives": 5
+  },
+  "elapsed_seconds": 0.002,
+  "original_alignments": "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/01-word-alignment/attempt-_rvvum12/261125_073149/term-pairs.jsonl"
+}

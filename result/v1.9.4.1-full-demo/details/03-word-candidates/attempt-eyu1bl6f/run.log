@@ -1,0 +1,68 @@
+["/opt/conda/envs/nmt/bin/python", "/home/hjs/PP/glossary-rag-pipeline/03-word-candidates/co-work/run_mapping.py", "--candidates_file", "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/02-representative-candidates.jsonl", "--output_dir", "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/03-word-candidates/attempt-eyu1bl6f", "--device", "cuda", "--bge_model", "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/model-assets/bge-m3", "--batch_size", "2"]
+================================================================================
+🚀 Bilingual Term Candidate Mapping & Compositionality
+   Input Candidates: /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/02-representative-candidates.jsonl
+   Output Directory: /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/03-word-candidates/attempt-eyu1bl6f
+   Device:           cuda
+================================================================================
+
+▶ [1/4] Loading candidate dataset...
+  - Loaded 5 sentence bundles.
+  - Loaded 6 KO / 5 EN candidates (5 unique phrases across dataset)
+
+▶ [2/4] Initializing BGE-M3 and Precomputing Phrase Embeddings...
+
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 391/391 [00:00<00:00, 4978.35it/s]
+
+Batches:   0%|          | 0/3 [00:00<?, ?it/s]
+Batches:  33%|███▎      | 1/3 [00:00<00:00,  3.78it/s]
+Batches: 100%|██████████| 3/3 [00:00<00:00,  9.46it/s]
+Batches: 100%|██████████| 3/3 [00:00<00:00,  8.22it/s]
+  - Embeddings precomputed in 0.37s
+
+▶ [3/4] Executing Mapping, MNN Filtering, and Local NMS...
+    Mapping progress: 5 / 5 (100.0%)
+  - Mapping complete in 0.00s (4130.7 sent/s)
+  - [4-2] Multi-word Compound Pairs: 0
+  - [4-1] Single/Asymmetric Pairs:   4
+
+▶ [4/4] Building Unified Dictionaries and Artifacts...
+================================================================================
+✅ Stage 4 & 4-1 Dictionary Building Complete!
+  - [4-2] Compound Terms:           /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/03-word-candidates/attempt-eyu1bl6f/compound_terms.jsonl (0 terms)
+  - [4-1] Unified Polysemy Clusters: /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/03-word-candidates/attempt-eyu1bl6f/polysemy_clusters.jsonl (4 clusters)
+  - Acronym Terms:                  /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/03-word-candidates/attempt-eyu1bl6f/acronym_terms.jsonl (0 acronyms)
+  - Unmapped Sentences:             /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/03-word-candidates/attempt-eyu1bl6f/unmapped_sentences.jsonl (0 sentences)
+  - Summary Report:                 /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/03-word-candidates/attempt-eyu1bl6f/report.md
+================================================================================
+
+▶ [Stage 4-2] Running Recursive Hierarchical Compositionality Filter...
+  - Reference Polysemy Lexicon: /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/03-word-candidates/attempt-eyu1bl6f/polysemy_clusters.jsonl
+  - Reference Acronym Lexicon:  /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/03-word-candidates/attempt-eyu1bl6f/acronym_terms.jsonl
+  - Output Subdirectory:        /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/03-word-candidates/attempt-eyu1bl6f/compositionality
+[CompositionalityFilter] Building generic lexicon...
+  - Anchors: 0 KO, 0 EN | Keys: 0 | Links: 0
+  - Loaded 5 sample sentence pairs for contextual provenance.
+
+▶ [Stage 1] Evaluating base 1-word literal compositionality...
+  - Base 1-Word Literals: 0 | Candidate Rich: 0
+
+▶ [Stage 2] Running recursive hierarchical refinement (Pass 1~3)...
+  - Pass 1 (2-word keys): 0 literals
+  - Pass 2 (3-word keys): 0 literals
+  - Pass 3 (4-word keys): 0 literals
+  - Quarantined Over-extensions: 0
+  - Candidate Rich after Stage 2: 0
+
+▶ [Stage 3] Running Domain & Generic Modifier Compositionality Filter...
+  - Converted Modifier Literals: 0 terms
+    (Both matched: 0, Prefix matched: 0, Head matched: 0)
+  - Final Pure Rich Technical Terms: 0
+================================================================================
+🎉 Stage 4-2 Compositionality Filter Finished!
+  - Rich Domain Compounds:         /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/03-word-candidates/attempt-eyu1bl6f/compositionality/rich_compounds.jsonl
+  - Literal Compounds:             /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/03-word-candidates/attempt-eyu1bl6f/compositionality/literal_compounds.jsonl
+  - Over-extension Quarantined:    /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/03-word-candidates/attempt-eyu1bl6f/compositionality/over_extensions.jsonl
+================================================================================
+  - Word-domain-check Input:       /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/03-word-candidates/attempt-eyu1bl6f/combined_for_domain_check.jsonl (2 pairs)

@@ -1,0 +1,81 @@
+﻿language,unit_type,term_id,term,sentence_frequency,occurrence_frequency,aligned_containment_sentence_frequency,c_value,min_npmi,context_types,quality_status
+ko,nominal,ko_e4a23490afdecb48326c,aaa의 분석 연구,1,1,1,2.0,0.73483549,2,clean_candidate
+ko,nominal,ko_e51c94196fd8e84f2e27,간호,1,1,5,0.0,,7,clean_candidate
+ko,nominal,ko_9882daa774b702a18ea5,간호 업무 행위,1,1,1,1.5849625,0.56753531,2,clean_candidate
+ko,nominal,ko_09f76bb0f7170f88b932,간호 학생,1,1,1,1.0,0.56753531,1,clean_candidate
+ko,nominal,ko_48d69d9269bb612669ea,간호사,2,2,3,0.0,,3,clean_candidate
+ko,nominal,ko_6cb82fe2c50aca4ee65c,결과,1,1,1,0.0,,2,clean_candidate
+ko,nominal,ko_ad7a4bfd01dbbf5a039f,교육,1,1,1,0.0,,4,clean_candidate
+ko,nominal,ko_c80a670e1f7a599a8874,독립 변수,1,1,1,1.0,0.83269982,1,clean_candidate
+ko,nominal,ko_fe790695669aad2dead5,변비 간호 중재의 유형,1,1,1,2.32192809,1.0,2,clean_candidate
+ko,nominal,ko_6565802e4ee9f632da00,분석 도구,1,1,1,1.0,0.83269982,2,clean_candidate
+ko,nominal,ko_f00f2e22385d3e092b9d,비판적 사고,1,1,1,1.0,1.0,2,clean_candidate
+ko,nominal,ko_6ff775a287c75a472a20,설문지,1,1,1,0.0,,2,clean_candidate
+ko,nominal,ko_65be4f7f28d2df140ed4,시간,2,2,2,0.0,,4,clean_candidate
+ko,nominal,ko_009e2e0268898387fe79,신규 간호사,1,1,1,1.0,0.73483549,1,clean_candidate
+ko,nominal,ko_1c0eb6c9b8608bc5f7db,실험 연구 논문,1,1,1,1.5849625,1.0,2,clean_candidate
+ko,nominal,ko_8b0102836f3cad7c4f5b,언어 표현 문제,1,1,1,1.5849625,1.0,2,clean_candidate
+ko,nominal,ko_f8454c69c929bf75f8ab,연구 방법,1,1,1,1.0,0.73483549,2,clean_candidate
+ko,nominal,ko_59129cac28a89505ae25,영역,1,1,1,0.0,,2,clean_candidate
+ko,nominal,ko_8430a21eb47705edc77f,올바른 간호 진단,1,1,1,1.5849625,1.0,2,clean_candidate
+ko,nominal,ko_34aee22330e76d3302ae,이해도,1,1,1,0.0,,2,clean_candidate
+ko,nominal,ko_7b82e8d38b16a9719293,일반적 특성,1,1,1,1.0,1.0,2,clean_candidate
+ko,nominal,ko_8a8a95fc82b447547673,임부의 정서적인 안정,1,1,1,2.0,1.0,2,clean_candidate
+ko,nominal,ko_0ee4f4393aa0e2313bc9,임상 등급,1,1,1,1.0,1.0,2,clean_candidate
+ko,nominal,ko_8e4cadc00109cf94305d,전문 교육 과정의 수,1,1,1,2.32192809,1.0,2,clean_candidate
+ko,nominal,ko_b1d1030f3fd8d3eb85b9,조사,1,1,1,0.0,,2,clean_candidate
+ko,nominal,ko_cecfea34232daa67ba3f,종속 변수의 종류,1,1,1,2.0,1.0,2,clean_candidate
+ko,nominal,ko_90ea9a6bd6bf1229a04e,효율적인 간호,1,1,1,1.0,0.56753531,2,clean_candidate
+ko,verbal,ko_bf08168ce0b71da86825,경험하다,1,1,1,0.0,,2,clean_candidate
+ko,verbal,ko_22275bfc5f4cef54087d,도모하다,1,1,1,0.0,,2,clean_candidate
+ko,verbal,ko_0ba75492126a47eb8e10,받다,2,2,2,0.0,,4,clean_candidate
+ko,verbal,ko_e8f5e9e611ea0c84c89e,변하다,1,1,1,0.0,,2,clean_candidate
+ko,verbal,ko_4ec1270b3dad439c688f,분석하다,1,1,1,0.0,,2,clean_candidate
+ko,verbal,ko_6abc87bafe396dc6d758,사료되다,1,1,1,0.0,,1,clean_candidate
+ko,verbal,ko_f0eaecd28757031b295b,상승하다,1,1,1,0.0,,2,clean_candidate
+ko,verbal,ko_b661fc534ac6d04c071a,소요되다,1,1,1,0.0,,2,clean_candidate
+ko,verbal,ko_93c67aaa29cb021b147a,이수하다,1,1,1,0.0,,2,clean_candidate
+ko,verbal,ko_809a111e9a194c1f68f0,제시하다,1,1,1,0.0,,1,clean_candidate
+ko,verbal,ko_6603fd05195e6f009a4e,조사하다,1,1,1,0.0,,1,clean_candidate
+ko,verbal,ko_a86e6a19b31fe8d20b0d,하다,1,1,1,0.0,,1,clean_candidate
+ko,verbal,ko_4ce611e416d7379da6b0,해당하다,1,1,1,0.0,,2,clean_candidate
+en,nominal,en_687e9b78fec5d0ef90d8,analysis of aaa,1,1,1,1.5849625,0.83269982,1,clean_candidate
+en,nominal,en_0887963960bc36e861b4,analysis tool,1,1,1,1.0,0.83269982,2,clean_candidate
+en,nominal,en_2935d688afb90be038d2,area,1,1,1,0.0,,2,clean_candidate
+en,nominal,en_3a8526b594ede163348d,clinical grade,1,1,1,1.0,1.0,2,clean_candidate
+en,nominal,en_229d600aa8f5449503b2,comprehension,1,1,1,0.0,,2,clean_candidate
+en,nominal,en_e88a49e9babb7e7fea09,correct nursing diagnosis,1,1,1,1.5849625,1.0,1,clean_candidate
+en,nominal,en_b0a62ec116b9b6f3bcb2,critical thinking,1,1,1,1.0,1.0,2,clean_candidate
+en,nominal,en_54f2508988c12612a0ba,education,1,1,1,0.0,,2,clean_candidate
+en,nominal,en_b595eba96a914bcd8d1f,effective nursing,1,1,1,1.0,0.56753531,2,clean_candidate
+en,nominal,en_1d0d1865919bd8af0848,emotional stability of pregnant woman,1,1,1,2.32192809,1.0,2,clean_candidate
+en,nominal,en_33fbdc570ea5776b7f1c,experimental research paper,1,1,1,1.5849625,1.0,2,clean_candidate
+en,nominal,en_780bda951527af2a52bb,general characteristic,1,1,1,1.0,1.0,2,clean_candidate
+en,nominal,en_2812b48a94b2732eb0ad,independent variable,1,1,1,1.0,0.83269982,1,clean_candidate
+en,nominal,en_fa58951281c2a2d3dbfe,number of professional training course,1,1,1,2.32192809,1.0,2,clean_candidate
+en,nominal,en_6bc82ac1c36bc5b84a36,nurse,3,3,3,0.0,,6,clean_candidate
+en,nominal,en_6e4ac34426b7386e67ec,nursing,1,1,5,0.0,,8,clean_candidate
+en,nominal,en_8f55fbeeb8337acbdb86,nursing student,1,1,1,1.0,0.56753531,1,clean_candidate
+en,nominal,en_59a52a71cfae4a7ef4d0,nursing work action,1,1,1,1.5849625,0.56753531,2,clean_candidate
+en,nominal,en_8e1b4b2c035158539753,problem of language expression,1,1,1,2.0,1.0,2,clean_candidate
+en,nominal,en_fcd25cf275fb1e85c730,questionnaire,1,1,1,0.0,,1,clean_candidate
+en,nominal,en_071e5aaf67182388b359,research method,1,1,1,1.0,0.83269982,2,clean_candidate
+en,nominal,en_5b19efbde9dc62eeb5b4,result,1,1,1,0.0,,2,clean_candidate
+en,nominal,en_4c33d11feeecc16c3d7f,survey,1,1,1,0.0,,2,clean_candidate
+en,nominal,en_5e47de1a4e824792102d,time,2,2,2,0.0,,3,clean_candidate
+en,nominal,en_9ffecc2a1dd5ff132cbd,type of constipation nursing intervention,1,1,1,2.32192809,0.83269982,2,clean_candidate
+en,nominal,en_f8309c5c18a597d86005,type of dependent variable,1,1,1,2.0,0.83269982,2,clean_candidate
+en,verbal,en_d142abcaedbd018e3973,analyze,1,1,1,0.0,,2,clean_candidate
+en,verbal,en_fba3af0c23218f77da43,base,1,1,1,0.0,,2,clean_candidate
+en,verbal,en_ea428c3c6075c001ef5f,change,1,1,1,0.0,,2,clean_candidate
+en,verbal,en_9e8e0011eb0a4890b1cb,complete,1,1,1,0.0,,2,clean_candidate
+en,verbal,en_719c74a0381cef9bbb88,consider,1,1,1,0.0,,2,clean_candidate
+en,verbal,en_35ea195111a8a21e804b,examine,1,1,1,0.0,,2,clean_candidate
+en,verbal,en_10cf4ac822ab41c05830,experience,1,1,1,0.0,,2,clean_candidate
+en,verbal,en_dcec30cf8a2a4c9899e9,increase,1,1,1,0.0,,2,clean_candidate
+en,verbal,en_48bccbbe58f7673e2d60,need,1,1,1,0.0,,2,clean_candidate
+en,verbal,en_020ccdfbf18399cde39d,present,1,1,1,0.0,,1,clean_candidate
+en,verbal,en_3ff188f1d1730dfd76c0,promote,1,1,1,0.0,,2,clean_candidate
+en,verbal,en_a325913ec54540565a4b,receive,1,1,1,0.0,,2,clean_candidate
+en,verbal,en_7ff565ef53111e17d2bd,show,1,1,1,0.0,,2,clean_candidate
+en,verbal,en_c2c11f361edeaba3f15a,train,1,1,1,0.0,,2,clean_candidate

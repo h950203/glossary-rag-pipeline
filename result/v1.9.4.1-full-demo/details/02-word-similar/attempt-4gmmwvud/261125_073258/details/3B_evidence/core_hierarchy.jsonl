@@ -1,0 +1,5 @@
+{"term_id": "ko_48d69d9269bb612669ea", "language": "ko", "term": "간호사", "unit_type": "nominal", "parent_core_id": null, "family_representative_id": "ko_48d69d9269bb612669ea", "relation": "lexical_containment"}
+{"term_id": "ko_65be4f7f28d2df140ed4", "language": "ko", "term": "시간", "unit_type": "nominal", "parent_core_id": null, "family_representative_id": "ko_65be4f7f28d2df140ed4", "relation": "lexical_containment"}
+{"term_id": "en_6bc82ac1c36bc5b84a36", "language": "en", "term": "nurse", "unit_type": "nominal", "parent_core_id": null, "family_representative_id": "en_6bc82ac1c36bc5b84a36", "relation": "lexical_containment"}
+{"term_id": "en_5e47de1a4e824792102d", "language": "en", "term": "time", "unit_type": "nominal", "parent_core_id": null, "family_representative_id": "en_5e47de1a4e824792102d", "relation": "lexical_containment"}
+{"term_id": "ko_0ba75492126a47eb8e10", "language": "ko", "term": "받다", "unit_type": "verbal", "parent_core_id": null, "family_representative_id": "ko_0ba75492126a47eb8e10", "relation": "lexical_containment"}

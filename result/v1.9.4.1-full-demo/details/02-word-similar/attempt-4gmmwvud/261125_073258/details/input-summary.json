@@ -1,0 +1,23 @@
+{
+  "sentence_rows": 10,
+  "rows_with_pairs": 10,
+  "rows_without_pairs": 0,
+  "pair_occurrences": 43,
+  "unique_surface_pairs": 41,
+  "unique_surfaces": {
+    "ko": 41,
+    "en": 41
+  },
+  "upstream_methods": {
+    "C_nltk_treebank": 10
+  },
+  "statuses": {
+    "aligned": 10
+  },
+  "kinds": {
+    "word": 12,
+    "phrase": 31
+  },
+  "normalized_pairs": 41,
+  "uses_local_nlp": false
+}

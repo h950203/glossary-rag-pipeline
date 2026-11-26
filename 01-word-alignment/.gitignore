@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv-bge/
+.cache/
+result/
+result*/
+quality_runs/
+nltk_data/
+
+result/

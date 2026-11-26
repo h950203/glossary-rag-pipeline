@@ -1,0 +1,7 @@
+{
+  "train_json": "../data/train/의학/간호학.json",
+  "eval_json": "../data/validation/의학/간호학.json",
+  "domain": "의학/간호학",
+  "load_in_4bit": true,
+  "allow_record_errors": true
+}

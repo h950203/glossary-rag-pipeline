@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "description": "번역 용어 선별용 임시 분류체계. 공식 진료과/학문 분류표가 아니며 사용자 수정 가능.",
+  "sources": [
+    "https://www.ncbi.nlm.nih.gov/mesh/68009729",
+    "https://www.ncbi.nlm.nih.gov/mesh/68009732",
+    "https://abms.org/member-boards/specialty-subspecialty-certificates/"
+  ],
+  "policy": {
+    "allow_external_domains": false,
+    "external_examples": [
+      "학술연구/연구방법론",
+      "학술연구/통계학",
+      "사회과학/심리학"
+    ],
+    "shared_major_rule": "여러 소분류의 공통 개념은 소분류를 억지로 고르지 말고 대분류만 배정",
+    "home_field_rule": "연구 대상·사용 직종·응용 장소보다 용어가 정의하는 본래 개념으로 분류",
+    "membership_rule": "실제 소속에 근거가 있으면 복수 배정. 단독 귀속은 필수가 아님. 미등록 소분류는 제안으로 보존."
+  },
+  "domains": {
+    "ICT": {
+      "scope": "정보·컴퓨팅·통신 기술",
+      "subdomains": {
+        "빅데이터": {
+          "scope": "대규모 데이터의 수집·저장·분산 처리·분석 기반",
+          "core_criteria": {
+            "core_concept": "용어 자체가 대규모 데이터의 수집·저장·분산 처리·분석 기반의 고유 개념을 지칭함"
+          }
+        },
+        "컴퓨터": {
+          "scope": "알고리즘·소프트웨어·컴퓨터 구조·인공지능 모델과 학습 기법",
+          "core_criteria": {
+            "core_concept": "용어 자체가 알고리즘·소프트웨어·컴퓨터 구조·인공지능 모델과 학습 기법의 고유 개념을 지칭함"
+          }
+        },
+        "통신": {
+          "scope": "네트워크·프로토콜·정보 전달 체계",
+          "core_criteria": {
+            "core_concept": "용어 자체가 네트워크·프로토콜·정보 전달 체계의 고유 개념을 지칭함"
+          }
+        }
+      }
+    },
+    "기계": {
+      "scope": "기계 장치·재료·생체 장치의 공학적 설계",
+      "subdomains": {
+        "동력기관": {
+          "scope": "엔진·연소·동력 변환 기구",
+          "core_criteria": {
+            "core_concept": "용어 자체가 엔진·연소·동력 변환 기구의 고유 개념을 지칭함"
+          }
+        },
+        "열처리": {
+          "scope": "재료의 열적 공정·상변태·조직 제어",
+          "core_criteria": {
+            "core_concept": "용어 자체가 재료의 열적 공정·상변태·조직 제어의 고유 개념을 지칭함"
+          }
+        },
+        "의공학": {
+          "scope": "생체 계측·의료기기·생체 재료의 공학적 원리와 설계",
+          "core_criteria": {
+            "core_concept": "용어 자체가 생체 계측·의료기기·생체 재료의 공학적 원리와 설계의 고유 개념을 지칭함"
+          }
+        },
+        "재료공학": {
+          "scope": "재료의 구조·물성·가공·파괴",
+          "core_criteria": {
+            "core_concept": "용어 자체가 재료의 구조·물성·가공·파괴의 고유 개념을 지칭함"
+          }
+        }
+      }
+    },
+    "의학": {
+      "scope": "인체·질병·진단·치료·돌봄과 보건의료의 전문 개념",
+      "subdomains": {
+        "가정의학": {
+          "scope": "일차의료·가족 단위 건강관리·지속적 포괄 진료",
+          "core_criteria": {
+            "core_concept": "용어 자체가 일차의료·가족 단위 건강관리·지속적 포괄 진료의 고유 개념을 지칭함"
+          }
+        },
+        "간호학": {
+          "scope": "간호과정·간호진단·간호이론·간호 전문직 실무 체계",
+          "core_criteria": {
+            "nursing_process": "간호사정·간호진단·간호계획·간호중재·간호평가 자체의 체계와 개념",
+            "nursing_classification": "간호진단·간호중재·간호결과의 표준 분류 및 그 분류 항목",
+            "nursing_theory": "간호이론을 정의하는 고유한 구성 개념과 모델",
+            "nursing_practice": "간호업무의 독자적인 돌봄 전달·기록·책임 체계를 명명한 개념; 의료 일반 시술·질병은 제외",
+            "nursing_workforce": "간호 전문직의 고유 직무·배치·인계·근무 체계; 일반 직장 스트레스·소진은 제외",
+            "nursing_education": "간호 역량·간호 전문직 교육 체계 자체의 개념; 일반 학습·교육 방법은 제외"
+          },
+          "shared_examples": [
+            "질병명·병태생리·검사·약물 자체",
+            "혈압·혈당·활력징후",
+            "환자교육·환자안전·감염관리 일반 개념",
+            "다른 직종도 같은 정의로 사용하는 의학 공통 개념"
+          ],
+          "insufficient_evidence": [
+            "간호사가 사용하거나 관찰함",
+            "간호학 논문·교육에 등장함",
+            "환자·간호대학생·간호사가 연구 대상임",
+            "간호 업무에 적용 가능하다고 추측함"
+          ],
+          "calibration_examples": [
+            {
+              "surface_a": "간호진단",
+              "surface_b": "nursing diagnosis",
+              "domains": [
+                "의학/간호학"
+              ],
+              "target_basis": "nursing_process"
+            },
+            {
+              "surface_a": "일차간호",
+              "surface_b": "primary nursing",
+              "domains": [
+                "의학/간호학"
+              ],
+              "target_basis": "nursing_practice"
+            },
+            {
+              "surface_a": "심근경색",
+              "surface_b": "myocardial infarction",
+              "domains": [
+                "의학/내과학"
+              ],
+              "target_basis": null
+            },
+            {
+              "surface_a": "혈압",
+              "surface_b": "blood pressure",
+              "domains": [
+                "의학"
+              ],
+              "target_basis": null
+            },
+            {
+              "surface_a": "환자교육",
+              "surface_b": "patient education",
+              "domains": [
+                "의학"
+              ],
+              "target_basis": null
+            },
+            {
+              "surface_a": "문헌 고찰",
+              "surface_b": "literature review",
+              "domains": [
+                "학술연구/연구방법론"
+              ],
+              "target_basis": null
+            },
+            {
+              "surface_a": "딥 러닝",
+              "surface_b": "deep learning",
+              "domains": [
+                "ICT/컴퓨터"
+              ],
+              "target_basis": null
+            }
+          ]
+        },
+        "내과학": {
+          "scope": "성인 내과 질환의 진단·비수술적 치료; 순환기·호흡기·소화기·내분비 등",
+          "core_criteria": {
+            "core_concept": "용어 자체가 성인 내과 질환의 진단·비수술적 치료; 순환기·호흡기·소화기·내분비 등의 고유 개념을 지칭함"
+          }
+        },
+        "병리학": {
+          "scope": "질병의 세포·조직 변화와 병리 진단",
+          "core_criteria": {
+            "core_concept": "용어 자체가 질병의 세포·조직 변화와 병리 진단의 고유 개념을 지칭함"
+          }
+        },
+        "외과학": {
+          "scope": "수술 술기·절제·재건·수술적 질환 치료",
+          "core_criteria": {
+            "core_concept": "용어 자체가 수술 술기·절제·재건·수술적 질환 치료의 고유 개념을 지칭함"
+          }
+        },
+        "약리학": {
+          "scope": "약물 작용·약동학·약력학·약물 상호작용",
+          "core_criteria": {
+            "core_concept": "용어 자체가 약물 작용·약동학·약력학·약물 상호작용의 고유 개념을 지칭함"
+          }
+        },
+        "생리학": {
+          "scope": "인체 기능과 생리적 조절 기전",
+          "core_criteria": {
+            "core_concept": "용어 자체가 인체 기능과 생리적 조절 기전의 고유 개념을 지칭함"
+          }
+        },
+        "정신건강의학": {
+          "scope": "정신질환의 진단·정신치료·정신약물 치료",
+          "core_criteria": {
+            "core_concept": "용어 자체가 정신질환의 진단·정신치료·정신약물 치료의 고유 개념을 지칭함"
+          }
+        },
+        "예방의학·공중보건학": {
+          "scope": "인구집단 건강·질병 예방·역학·보건 정책",
+          "core_criteria": {
+            "core_concept": "용어 자체가 인구집단 건강·질병 예방·역학·보건 정책의 고유 개념을 지칭함"
+          }
+        },
+        "기타": {
+          "scope": "의학 소속은 분명하지만 나열된 소분류에 들어맞지 않거나 특정 소분류로 결정하기 애매한 전문 개념. 예: 영상·소아·신경·해부 구조 등 나머지 분야.",
+          "core_criteria": {
+            "other_medical_concept": "의학 개념이지만 고정된 다른 소분류에 배정할 충분한 근거가 없거나 목록 밖 의학 분야에 해당함"
+          },
+          "insufficient_evidence": [
+            "대분류 자체가 불명확함",
+            "의학 밖 개념을 의료에 활용했다는 사실"
+          ],
+          "shared_examples": [
+            "여러 소분류에서 같은 정의로 쓰이는 공통 개념은 기타 대신 의학 대분류로 배정"
+          ]
+        }
+      },
+      "fallback_subdomain": "기타"
+    },
+    "전기": {
+      "scope": "전력·전기 장치와 에너지 시스템",
+      "subdomains": {
+        "배터리": {
+          "scope": "전지의 전기화학·충방전·성능과 관리",
+          "core_criteria": {
+            "core_concept": "용어 자체가 전지의 전기화학·충방전·성능과 관리의 고유 개념을 지칭함"
+          }
+        },
+        "설비": {
+          "scope": "전기 설비·배전·보호·접지",
+          "core_criteria": {
+            "core_concept": "용어 자체가 전기 설비·배전·보호·접지의 고유 개념을 지칭함"
+          }
+        },
+        "에너지": {
+          "scope": "에너지 변환·전력 계통·에너지 공급과 효율",
+          "core_criteria": {
+            "core_concept": "용어 자체가 에너지 변환·전력 계통·에너지 공급과 효율의 고유 개념을 지칭함"
+          }
+        }
+      }
+    },
+    "전자": {
+      "scope": "전자 소자·회로·전자 신호 시스템",
+      "subdomains": {
+        "디스플레이": {
+          "scope": "표시 소자·패널·구동·광학 표시 기술",
+          "core_criteria": {
+            "core_concept": "용어 자체가 표시 소자·패널·구동·광학 표시 기술의 고유 개념을 지칭함"
+          }
+        },
+        "무선통신": {
+          "scope": "무선 전송·안테나·변조·무선 채널",
+          "core_criteria": {
+            "core_concept": "용어 자체가 무선 전송·안테나·변조·무선 채널의 고유 개념을 지칭함"
+          }
+        },
+        "반도체": {
+          "scope": "반도체 소자·공정·집적회로",
+          "core_criteria": {
+            "core_concept": "용어 자체가 반도체 소자·공정·집적회로의 고유 개념을 지칭함"
+          }
+        }
+      }
+    },
+    "학술연구": {
+      "scope": "분야 공통 연구 설계·방법론·통계 분석의 개념",
+      "subdomains": {
+        "연구방법론": {
+          "scope": "문헌 고찰·연구 설계·측정·연구 수행의 방법과 체계",
+          "core_criteria": {
+            "core_concept": "문헌 고찰·연구 설계·측정·연구 수행의 방법과 체계"
+          }
+        },
+        "통계학": {
+          "scope": "추론·추정·회귀·확률·통계 분석의 개념",
+          "core_criteria": {
+            "core_concept": "추론·추정·회귀·확률·통계 분석의 개념"
+          }
+        }
+      }
+    },
+    "사회과학": {
+      "scope": "사회·인간 행동과 사회 현상에 대한 전문 개념",
+      "subdomains": {
+        "심리학": {
+          "scope": "심리 과정·행동·정서·인지의 이론과 측정 개념",
+          "core_criteria": {
+            "core_concept": "심리 과정·행동·정서·인지의 이론과 측정 개념"
+          }
+        }
+      }
+    }
+  },
+  "taxonomy_version": "1.4-2026-11-16"
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "bge-tokenizers-v1",
+  "methods": {
+    "C_bge": {"en": "spacy", "ko": "kiwi_compound", "description": "기존 C 기준: spaCy + Kiwi 복합어"},
+    "C_nltk_treebank": {"en": "nltk_treebank", "ko": "kiwi_compound", "description": "영어만 NLTK Treebank로 교체"},
+    "C_nltk_wordpunct": {"en": "nltk_wordpunct", "ko": "kiwi_compound", "description": "영어 단어·기호를 WordPunct로 분리"},
+    "C_kiwi_morph": {"en": "spacy", "ko": "kiwi_morph", "description": "복합어 병합 전 Kiwi 표면형"},
+    "C_eojeol": {"en": "spacy", "ko": "eojeol", "description": "한국어 공백 기준 어절"},
+    "C_bge_subword": {"en": "bge_subword", "ko": "bge_subword", "description": "양쪽 모두 BGE subword의 원문 경계"}
+  }
+}

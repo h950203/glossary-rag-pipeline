@@ -1,0 +1,40 @@
+{
+  "status": "complete",
+  "target": {
+    "path": "의학/간호학",
+    "major": "의학",
+    "minor": "간호학"
+  },
+  "records": 2,
+  "counts": {
+    "accept": 1,
+    "reject": 1,
+    "pending": 0,
+    "error": 0,
+    "unprocessed": 0
+  },
+  "target_accepted": 1,
+  "model_commit": "43c9d014b231474fa7212dbb48a762566c2b255d",
+  "latest_attempt_metrics": {
+    "logical_requests": 5,
+    "attempts": 5,
+    "generated_tokens": 642
+  },
+  "phases": {
+    "interpret": {
+      "requests": 2,
+      "errors": 0,
+      "attempts": 2
+    },
+    "decision": {
+      "requests": 2,
+      "errors": 0,
+      "attempts": 2
+    },
+    "child_review": {
+      "requests": 1,
+      "errors": 0,
+      "attempts": 1
+    }
+  }
+}

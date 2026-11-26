@@ -1,0 +1,135 @@
+{
+  "schema": "word-alignment-v1.2",
+  "engine": "C_bge",
+  "run_id": "79dd93f4a93b4745b8e7831f28e61641",
+  "created_at": "2026-11-25T07:31:49.481708+00:00",
+  "tokenizations": {
+    "C_nltk_treebank": {
+      "status": "complete",
+      "path": "tokenizations/C_nltk_treebank.jsonl",
+      "sha256": "df36a9adb617087b25148bb02b8e2d1e9a13c0a30bbb3a17bdaa3f14c2240ecd",
+      "profile": {
+        "en": "nltk_treebank",
+        "ko": "kiwi_compound",
+        "description": "영어만 NLTK Treebank로 교체"
+      },
+      "tokenizer_signature": "5679757644bf9ee402f7d464b3aae90b93a669f73d60085d291549d7cb5434d7",
+      "counts": {
+        "sentences": 10,
+        "status_ready": 10,
+        "en_tokens": 212,
+        "ko_tokens": 248,
+        "pairs": 0,
+        "word_pairs": 0,
+        "phrase_pairs": 0
+      },
+      "elapsed_seconds_shared": 7.064
+    }
+  },
+  "stages": {
+    "C_nltk_treebank": {
+      "status": "complete",
+      "path": "methods/C_nltk_treebank/alignments.jsonl",
+      "sha256": "1a1edb79a7fd7aa76727ae3057753cb332c42b68ac8a786b167c18931ed2baac",
+      "alignment_signature": "6fb2dc457bbd3b31157598013d09d1774e2c52fba5f3db591de6a2d75d368fd6",
+      "profile": {
+        "en": "nltk_treebank",
+        "ko": "kiwi_compound",
+        "description": "영어만 NLTK Treebank로 교체"
+      },
+      "counts": {
+        "sentences": 10,
+        "status_aligned": 10,
+        "en_tokens": 212,
+        "ko_tokens": 248,
+        "pairs": 54,
+        "word_pairs": 34,
+        "phrase_pairs": 20
+      },
+      "elapsed_seconds_shared": 7.835
+    }
+  },
+  "input": {
+    "en": "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/01-word-alignment/attempt-_rvvum12/inputs/train.en",
+    "ko": "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/01-word-alignment/attempt-_rvvum12/inputs/train.ko"
+  },
+  "input_hashes": {
+    "en": "0973358094f96ec10c15aa2fc9b9975bc534baa0bf4fc5958d80768c7459e9f0",
+    "ko": "5a80168d945b58814fc19681c7101c2b4f7896d2cde3e22027b7b500a234ee0d"
+  },
+  "corpus_id": "2444288d6ab2d61464ba53b1ecfc71dda9ccde193bde42c1595a9da77012b54b",
+  "source_signature": "971efcc31073793023fff0833d2089b776184067d5d1e6716c6b99c18e7757e9",
+  "input_counts": {
+    "total_lines": 10,
+    "selected_lines": 10,
+    "empty_pairs": 0
+  },
+  "status": "complete",
+  "packages": {
+    "kiwipiepy": "0.24.1",
+    "spacy": "3.8.14",
+    "nltk": "3.10.4",
+    "torch": "2.5.1+cu121",
+    "numpy": "1.26.4",
+    "transformers": "5.12.1",
+    "huggingface-hub": "1.26.0",
+    "tokenizers": "0.22.2"
+  },
+  "updated_at": "2026-11-25T07:32:09.656761+00:00",
+  "encoder_settings": {
+    "device": "cuda",
+    "fp16": true,
+    "max_model_tokens": 512,
+    "bge_span_tokens": 3,
+    "max_span_candidates": 2048,
+    "min_similarity": 0.5,
+    "margin": 0.03,
+    "model": "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/model-assets/bge-m3",
+    "revision": "main",
+    "local_files": {
+      "colbert_linear.pt": "19bfbae397c2b7524158c919d0e9b19393c5639d098f0a66932c91ed8f5f9abb",
+      "config.json": "26159e7ad065073448460117eb24b7a4572f6f4e78eadff65dc0a11c052449fa",
+      "model.safetensors": "993b2248881724788dcab8c644a91dfd63584b6e5604ff2037cb5541e1e38e7e",
+      "sentencepiece.bpe.model": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865",
+      "special_tokens_map.json": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835",
+      "tokenizer.json": "21106b6d7dab2952c1d496fb21d5dc9db75c28ed361a05f5020bbba27810dd08",
+      "tokenizer_config.json": "a62b2b6784f990259fddef5f16388693a8043be4f69179e6a5257eeb3f9abac4"
+    },
+    "engine_code": "0e488fe9568a44fb7743f7592cd9677527b8fc41a16f5e46f4419a7ee7ad80fb",
+    "term_policy": {
+      "schema": "term-units-v1.1",
+      "max_term_tokens": 12,
+      "term_types": [
+        "nominal",
+        "verbal"
+      ],
+      "code": "2756f216f8302215905ab04844968aacc6713d3a31669a930e9cd7df0271bbd9",
+      "nltk": "3.10.4",
+      "kiwipiepy": "0.24.1"
+    },
+    "term_alignment_code": "8ba820f62a688ca43d8beca3108f945185ccb4da048c5bfe2542d6607a3ccaaa",
+    "candidate_review_code": "3665fbf6b2185c7a362abea0697076c3f47b7f93b4dc842fd93ff6d89c716376"
+  },
+  "bge_model": {
+    "model": "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/model-assets/bge-m3",
+    "resolved_revision": null,
+    "head_sha256": "19bfbae397c2b7524158c919d0e9b19393c5639d098f0a66932c91ed8f5f9abb",
+    "representation": "normalized colbert projection",
+    "pooling": "character-overlap weighted span mean, L2 normalized",
+    "device": "cuda",
+    "fp16": true,
+    "max_model_tokens": 512,
+    "prefix": null,
+    "scores_are_probabilities": false
+  },
+  "term_outputs": {
+    "C_nltk_treebank": {
+      "path": "methods/C_nltk_treebank/term-pairs.jsonl",
+      "sha256": "e8ccc080f41378c97d36a4017bf811c40b1c5ecccf7779d35f821be7f9b8e990",
+      "sentences": 10,
+      "pairs": 47,
+      "schema": "term-pairs-v1.1",
+      "review_sha256": "bdaea10049092d0b8950924587c077e3f616863263255c34431969ad1965b8d1"
+    }
+  }
+}

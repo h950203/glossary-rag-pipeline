@@ -1,0 +1,52 @@
+{
+  "method": "3B_evidence",
+  "languages": {
+    "ko": {
+      "terms": 40,
+      "core_candidates": 3,
+      "compound_cores": 0,
+      "families": 3,
+      "singleton_families": 3,
+      "unassigned_terms": 37,
+      "statuses": {
+        "separate_entry_review": 37,
+        "preserved_core": 3
+      },
+      "confirmed_omissions": 0,
+      "excluded_from_clean_groups": 0,
+      "semantic_conflict_links": 0
+    },
+    "en": {
+      "terms": 40,
+      "core_candidates": 2,
+      "compound_cores": 0,
+      "families": 2,
+      "singleton_families": 2,
+      "unassigned_terms": 38,
+      "statuses": {
+        "separate_entry_review": 38,
+        "preserved_core": 2
+      },
+      "confirmed_omissions": 0,
+      "excluded_from_clean_groups": 0,
+      "semantic_conflict_links": 0
+    }
+  },
+  "unit_types": {
+    "nominal": {
+      "terms": 53,
+      "families": 4
+    },
+    "verbal": {
+      "terms": 27,
+      "families": 1
+    }
+  },
+  "alignment_pairs": {
+    "normalized_pairs": 41,
+    "pair_occurrences": 43,
+    "both_assigned": 2,
+    "partially_assigned": 3,
+    "unassigned": 36
+  }
+}

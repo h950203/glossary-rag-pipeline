@@ -1,0 +1,40 @@
+{
+  "config": {
+    "alignment_result": null,
+    "train_en": null,
+    "train_ko": null,
+    "train_json": null,
+    "eval_en": null,
+    "eval_ko": null,
+    "eval_json": null,
+    "filter_glossary": null,
+    "eval_glossary": null,
+    "taxonomy_file": null,
+    "reference_file": null,
+    "gold_file": null,
+    "comet_checkpoint": null,
+    "domain": null,
+    "python": "/opt/conda/envs/nmt/bin/python",
+    "eval_python": null,
+    "bge_model": "BAAI/bge-m3",
+    "gemma_model": "google/gemma-4-12B-it",
+    "gemma_revision": "43c9d014b231474fa7212dbb48a762566c2b255d",
+    "load_in_4bit": true,
+    "local_files_only": true,
+    "allow_record_errors": true,
+    "max_sentences": 0,
+    "eval_limit": 0,
+    "batch_size": 2
+  },
+  "completed": {
+    "07-translation": "details/07-translation/attempt-ggw2ay7x",
+    "08-evaluation": "details/08-evaluation/attempt-go4ey83b"
+  },
+  "start_stage": 7,
+  "imported_inputs": {
+    "06-eval-source.en": "/tmp/glossary-four-verify-53fj1zer/fresh-input/06-eval-source.en",
+    "06-eval-reference.ko": "/tmp/glossary-four-verify-53fj1zer/fresh-input/06-eval-reference.ko",
+    "05-glossary.jsonl": "/tmp/glossary-four-verify-53fj1zer/fresh-input/05-glossary.jsonl",
+    "05-glossary-with-examples.jsonl": "/tmp/glossary-four-verify-53fj1zer/fresh-input/05-glossary-with-examples.jsonl"
+  }
+}

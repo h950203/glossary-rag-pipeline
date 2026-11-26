@@ -1,0 +1,4 @@
+{"anchor_term": "시간", "anchor_lang": "ko", "canonical_term": "시간", "total_frequency": 2, "distinct_translations": 1, "translations": [{"term": "time", "frequency": 2, "sample_sources": ["KO_0001:EN_0001", "KO_0010:EN_0010"]}]}
+{"anchor_term": "간호사", "anchor_lang": "ko", "canonical_term": "간호사", "total_frequency": 2, "distinct_translations": 1, "translations": [{"term": "nurse", "frequency": 2, "sample_sources": ["KO_0001:EN_0001", "KO_0002:EN_0002"]}]}
+{"anchor_term": "time", "anchor_lang": "en", "canonical_term": "time", "total_frequency": 2, "distinct_translations": 1, "translations": [{"term": "시간", "frequency": 2, "sample_sources": ["KO_0001:EN_0001", "KO_0010:EN_0010"]}]}
+{"anchor_term": "nurse", "anchor_lang": "en", "canonical_term": "nurse", "total_frequency": 2, "distinct_translations": 1, "translations": [{"term": "간호사", "frequency": 2, "sample_sources": ["KO_0001:EN_0001", "KO_0002:EN_0002"]}]}

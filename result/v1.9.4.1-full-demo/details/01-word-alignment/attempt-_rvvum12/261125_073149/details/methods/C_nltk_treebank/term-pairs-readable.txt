@@ -1,0 +1,134 @@
+
+[1]
+KO: 간호사를 대상으로 한 시범 조사를 통해 언어 표현 문제, 이해도, 설문지 작성에 소요되는 시간 등을 조사하였다.
+EN: A pilot survey was conducted among nurses to examine problems of language expressions, the degree of comprehension and time needed to complete the questionnaire.
+  조사 ↔ survey | nominal | 0.699
+    원문: 조사 ↔ survey
+  간호사 ↔ nurse | nominal | 0.735
+    원문: 간호사 ↔ nurses
+  조사하다 ↔ examine | verbal | 0.760
+    원문: 조사하였다 ↔ examine
+  문제 ↔ problem | nominal | 0.829
+    원문: 문제 ↔ problems
+  언어 ↔ language | nominal | 0.808
+    원문: 언어 ↔ language
+  표현 ↔ expression | nominal | 0.756
+    원문: 표현 ↔ expressions
+  이해도 ↔ comprehension | nominal | 0.775
+    원문: 이해도 ↔ comprehension
+  시간 ↔ time | nominal | 0.825
+    원문: 시간 ↔ time
+  소요되다 ↔ need | verbal | 0.782
+    원문: 소요되는 ↔ needed
+  설문지 ↔ questionnaire | nominal | 0.759
+    원문: 설문지 ↔ questionnaire
+
+[2]
+KO: 간호사가 이수한 전문 교육과정의 수는 평균 2.6±2.44개이 며 임상등급이 상승할 수록 많은 교육을 이수하였다.
+EN: The average number of professional training courses completed by nurses was 2.6±2.44, and as the clinical grade increased, more education was completed.
+  수 ↔ number | nominal | 0.836
+    원문: 수 ↔ number
+  이수하다 ↔ complete | verbal | 0.801
+    원문: 이수한 ↔ completed
+  간호사 ↔ nurse | nominal | 0.763
+    원문: 간호사 ↔ nurses
+  임상 등급 ↔ clinical grade | nominal | 0.803
+    원문: 임상등급 ↔ clinical grade
+  상승하다 ↔ increase | verbal | 0.828
+    원문: 상승할 ↔ increased
+  교육 ↔ education | nominal | 0.828
+    원문: 교육 ↔ education
+
+[3]
+KO: 다문화에 대한 교육을 받은 간호사일수록 다문화에 대한 교육 욕구가 증가한다고 하였다.
+EN: It was said that nurses who received multicultural education, the more they wanted to be educated about multiculturalism.
+  받다 ↔ receive | verbal | 0.854
+    원문: 받은 ↔ received
+
+[4]
+KO: 간호 학생은 올바른 간호진단을 공식화하기 위해 비판적 사고와 평가에 대한 훈련을 받아야 한다.
+EN: Nursing students should be trained in critical thinking and assessment in order to formulate a correct nursing diagnosis.
+  학생 ↔ student | nominal | 0.827
+    원문: 학생 ↔ students
+  받다 ↔ train | verbal | 0.709
+    원문: 받아야 ↔ trained
+  비판적 사고 ↔ critical thinking | nominal | 0.774
+    원문: 비판적 사고 ↔ critical thinking
+  올바른 간호 진단 ↔ correct nursing diagnosis | nominal | 0.798
+    원문: 올바른 간호진단 ↔ correct nursing diagnosis
+
+[5]
+KO: 본 연구 논문의 분석 기준으로 변비 간호 중재 관련 일반적 특성과 연구방법은 AAA의 분석 연구를 기초로 하였다.
+EN: The general characteristics and research methods related to constipation nursing interventions were based on the analysis of AAA.
+  일반적 특성 ↔ general characteristic | nominal | 0.725
+    원문: 일반적 특성 ↔ general characteristics
+  연구 방법 ↔ research method | nominal | 0.759
+    원문: 연구방법 ↔ research methods
+  간호 ↔ nursing | nominal | 0.653
+    원문: 간호 ↔ nursing
+  하다 ↔ base | verbal | 0.688
+    원문: 하였다 ↔ based
+  aaa ↔ aaa | nominal | 0.860
+    원문: AAA ↔ AAA
+
+[6]
+KO: 독립변수에 해당하는 변비 간호 중재의 유형은 Table 2와 같다.
+EN: Table 2 shows the types of constipation nursing interventions that are independent variables.
+  해당하다 ↔ show | verbal | 0.612
+    원문: 해당하는 ↔ shows
+  유형 ↔ type | nominal | 0.807
+    원문: 유형 ↔ types
+  독립 변수 ↔ independent variable | nominal | 0.794
+    원문: 독립변수 ↔ independent variables
+
+[7]
+KO: 따라서 유산을 경험한 임부의 정서적인 안정을 도모할 수 있는 효율적인 간호 중재가 필요하다고 사료된다.
+EN: Therefore, it is considered that effective nursing interventions to promote emotional stability of pregnant women who have experienced abortion are necessary.
+  사료되다 ↔ consider | verbal | 0.731
+    원문: 사료된다 ↔ considered
+  효율적인 간호 ↔ effective nursing | nominal | 0.739
+    원문: 효율적인 간호 ↔ effective nursing
+  도모하다 ↔ promote | verbal | 0.715
+    원문: 도모할 ↔ promote
+  안정 ↔ stability | nominal | 0.766
+    원문: 안정 ↔ stability
+  임부 ↔ pregnant woman | nominal | 0.710
+    원문: 임부 ↔ pregnant women
+  경험하다 ↔ experience | verbal | 0.783
+    원문: 경험한 ↔ experienced
+
+[8]
+KO: 총 87편의 실험 연구 논문에서 간호 중재의 종류와 종속변수의 종류를 분석한 결과는 다음과 같다.
+EN: The results of analyzing the type of nursing intervention and the type of dependent variable in a total of 87 experimental research papers are as follows.
+  결과 ↔ result | nominal | 0.848
+    원문: 결과 ↔ results
+  분석하다 ↔ analyze | verbal | 0.831
+    원문: 분석한 ↔ analyzing
+  종속 변수의 종류 ↔ type of dependent variable | nominal | 0.758
+    원문: 종속변수의 종류 ↔ type of dependent variable
+  연구 논문 ↔ research paper | nominal | 0.828
+    원문: 연구 논문 ↔ research papers
+
+[9]
+KO: 기존의 포괄병동 간호사 간호직무 분석도구에서는 12개의 간호 영역과 149개의 간호 업무 행위를 제시하였다.
+EN: In the existing nursing job analysis tool of nurse in the comprehensive nursing and care service ward, 12 nursing areas and 149 nursing work actions were presented.
+  분석 도구 ↔ analysis tool | nominal | 0.747
+    원문: 분석도구 ↔ analysis tool
+  영역 ↔ area | nominal | 0.787
+    원문: 영역 ↔ areas
+  업무 ↔ work | nominal | 0.759
+    원문: 업무 ↔ work
+  행위 ↔ action | nominal | 0.803
+    원문: 행위 ↔ actions
+  제시하다 ↔ present | verbal | 0.805
+    원문: 제시하였다 ↔ presented
+
+[10]
+KO: 신규 간호사는 시간이 지남에 따라 긍정적으로 변해가는 나를 발견하게 되었다.
+EN: The new nurse found me changing positively over time.
+  신규 간호사 ↔ new nurse | nominal | 0.887
+    원문: 신규 간호사 ↔ new nurse
+  변하다 ↔ change | verbal | 0.887
+    원문: 변해 ↔ changing
+  시간 ↔ time | nominal | 0.879
+    원문: 시간 ↔ time

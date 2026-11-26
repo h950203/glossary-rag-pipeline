@@ -1,0 +1,7 @@
+{
+  "train_json": "train.json",
+  "eval_json": "eval.json",
+  "domain": "의학/간호학",
+  "load_in_4bit": true,
+  "batch_size": 2
+}

@@ -1,0 +1,2 @@
+method,english,korean,sentences,en_tokens,ko_tokens,mean_en_tokens,mean_ko_tokens
+C_nltk_treebank,nltk_treebank,kiwi_compound,10,212,248,21.2,24.8

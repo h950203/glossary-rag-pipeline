@@ -1,0 +1,6 @@
+결과 폴더: /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/02-word-similar/attempt-4gmmwvud/261125_073258
+입력 10문장 / 43대응; 상위 분석 재사용; 로컬 NLP 없음
+종료: complete; 0.04초; 저장: /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/02-word-similar/attempt-4gmmwvud/261125_073258/details
+저장: /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/02-word-similar/attempt-4gmmwvud/261125_073258/3_complete.jsonl; 5문장; 0.00초
+집계: /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/02-word-similar/attempt-4gmmwvud/261125_073258/details/3_complete-summary.json
+종료: complete; 0.04초; /home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/02-word-similar/attempt-4gmmwvud/261125_073258

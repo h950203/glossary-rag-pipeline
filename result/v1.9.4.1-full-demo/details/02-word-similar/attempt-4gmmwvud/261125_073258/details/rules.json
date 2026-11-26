@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "surface_aliases": {
+    "ko": {
+      "연 구": "연구"
+    },
+    "en": {
+      "healthcare": "health care"
+    }
+  },
+  "nominal_suffixes": [
+    "감",
+    "성",
+    "생",
+    "사",
+    "자",
+    "율",
+    "률",
+    "증",
+    "량",
+    "력",
+    "도"
+  ],
+  "incomplete_unit_prefixes": {
+    "ko": [
+      "실"
+    ],
+    "en": []
+  },
+  "independent_heads": {
+    "ko": [
+      "지수",
+      "척도",
+      "점수",
+      "도구",
+      "설문지",
+      "검사",
+      "검사법",
+      "질환",
+      "질환자",
+      "법",
+      "법률"
+    ],
+    "en": [
+      "index",
+      "scale",
+      "score",
+      "instrument",
+      "questionnaire",
+      "test",
+      "act",
+      "law"
+    ]
+  },
+  "generic_anchors": {
+    "ko": [
+      "경우",
+      "동안",
+      "정도",
+      "최근",
+      "이후",
+      "단계",
+      "결과",
+      "전체",
+      "대부분",
+      "대상"
+    ],
+    "en": [
+      "case",
+      "number",
+      "degree",
+      "term",
+      "field",
+      "thing",
+      "level",
+      "result",
+      "score",
+      "mean",
+      "average",
+      "lack",
+      "other",
+      "self"
+    ]
+  },
+  "bad_expressions": {
+    "ko": [],
+    "en": [
+      "long term",
+      "short term",
+      "higher score",
+      "lower score",
+      "other disease",
+      "relevant factor",
+      "room nurse"
+    ]
+  },
+  "bad_starts": {
+    "ko": [
+      "경우",
+      "결과",
+      "동안",
+      "이후",
+      "최근",
+      "때",
+      "및",
+      "과",
+      "후",
+      "전"
+    ],
+    "en": [
+      "whether",
+      "such",
+      "other",
+      "most"
+    ]
+  },
+  "bad_ends": {
+    "ko": [
+      "사이",
+      "각각",
+      "관련",
+      "이하",
+      "이상",
+      "이외",
+      "후",
+      "전",
+      "중",
+      "모두"
+    ],
+    "en": []
+  },
+  "meta_patterns": {
+    "ko": [
+      "관련 (?:연구|문항|논문)",
+      "선행 연구",
+      "연구 논문",
+      "결과.*(?:차이|유의)",
+      "여부.*여부"
+    ],
+    "en": [
+      "^(?:result|degree|level|importance|effect|significance|identification) of ",
+      "^case of ",
+      "^number of "
+    ]
+  },
+  "sense_rules": [
+    {
+      "key": "관리법",
+      "language": "ko",
+      "trigger": "관리법",
+      "default": "method",
+      "labels": {
+        "law": [
+          "공중위생.*관리법",
+          "법률",
+          "법령",
+          "시행령",
+          "조항",
+          "control act",
+          "management act"
+        ],
+        "method": [
+          "관리 방법",
+          "how to care",
+          "administration method",
+          "care method"
+        ]
+      }
+    },
+    {
+      "key": "field",
+      "language": "en",
+      "trigger": "\\bfield\\b",
+      "default": "unresolved",
+      "labels": {
+        "physical": [
+          "electromagnetic",
+          "magnetic",
+          "electric field",
+          "gravitational",
+          "force field"
+        ],
+        "discipline": [
+          "economics",
+          "academic",
+          "research field",
+          "nursing field",
+          "medical field",
+          "specialized field",
+          "field of study"
+        ]
+      }
+    },
+    {
+      "key": "질적간호",
+      "language": "ko",
+      "trigger": "질 ?적 ?간호",
+      "default": "unresolved",
+      "labels": {
+        "qualitative_research": [
+          "질 ?적 ?간호 ?연구",
+          "qualitative.*research"
+        ],
+        "care_quality": [
+          "질 ?적 ?간호 ?(?:제공|서비스|요구)",
+          "quality.*nursing"
+        ]
+      }
+    },
+    {
+      "key": "mesh",
+      "language": "en",
+      "trigger": "\\bmesh\\b",
+      "default": "unresolved",
+      "labels": {
+        "medical_subject_headings": [
+          "mesh (?:term|heading|search)",
+          "medical subject heading"
+        ],
+        "material": [
+          "surgical mesh",
+          "mesh implant",
+          "mesh repair",
+          "mesh material"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema": "word-similar-v1.2",
+  "status": "complete",
+  "started_at": "2026-11-25T07:32:58.528608+00:00",
+  "input": "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/02-word-similar/attempt-4gmmwvud/261125_073258/details/sample_alignments.jsonl",
+  "input_sha256": "1f62be6f9fab370037e104eb659b13b405f3cb03f871ba75b84a87815c329b7a",
+  "input_summary": {
+    "sentence_rows": 10,
+    "rows_with_pairs": 10,
+    "rows_without_pairs": 0,
+    "pair_occurrences": 43,
+    "unique_surface_pairs": 41,
+    "unique_surfaces": {
+      "ko": 41,
+      "en": 41
+    },
+    "upstream_methods": {
+      "C_nltk_treebank": 10
+    },
+    "statuses": {
+      "aligned": 10
+    },
+    "kinds": {
+      "word": 12,
+      "phrase": 31
+    }
+  },
+  "settings": {
+    "input": "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/02-word-similar/attempt-4gmmwvud/261125_073258/details/sample_alignments.jsonl",
+    "output_dir": "/home/hjs/PP/glossary-rag-pipeline/result/v1.9.4.1-full-demo/details/02-word-similar/attempt-4gmmwvud/261125_073258/details",
+    "methods": [
+      "3B_evidence"
+    ],
+    "unit_types": [
+      "nominal",
+      "verbal"
+    ],
+    "max_records": 0,
+    "max_candidate_tokens": 12,
+    "sample_sources": 5,
+    "min_atomic_sentences": 2,
+    "min_compound_sentences": 2,
+    "min_verb_sentences": 2,
+    "min_cvalue": 1.0,
+    "min_npmi": 0.1,
+    "min_context_types": 2,
+    "min_sense_purity": 0.9,
+    "rules_file": "/home/hjs/PP/glossary-rag-pipeline/02-word-similar/rules.json",
+    "overwrite": false,
+    "mode": "covered_expansions_small_sample",
+    "expansion_policy": "lexically_covered_only",
+    "include_occurrences": false,
+    "require_both": false,
+    "candidate_form": "representative",
+    "alignment_method": "C_nltk_treebank"
+  },
+  "methods": [
+    "3B_evidence"
+  ],
+  "unit_types": [
+    "nominal",
+    "verbal"
+  ],
+  "uses_llm": false,
+  "uses_local_nlp": false,
+  "frequency_basis": "exact_observed_pairs",
+  "phase_seconds": {
+    "provided_analysis_and_statistics": 0.006156660616397858,
+    "3B_evidence_grouping": 0.01796979084610939
+  },
+  "source_sha256": {
+    "build_glossary.py": "112e9e312aa45a753eed92140c9e36766b7fbcc8da23370ee279f9d2e1db694f",
+    "groups.py": "17d6753e08ae0bc468b95fc77907a11a78f1aae41d7282a396211f0b8b18bb18",
+    "aligned_input.py": "073dd34fcb12e7b389f0eba54af5e276e078c969b759a559e0961394a44b5ccf",
+    "observed_statistics.py": "be6c89dc5dece7cafeb6ae83d908274602ebcaf430cea433ddf459a58f1c9f9d",
+    "quality.py": "d2a57ac5293460f9d619564fee9689d7a41a37763e863c38da780a3be19a342a"
+  },
+  "elapsed_seconds": 0.03599556162953377
+}

@@ -1,0 +1,8 @@
+# Install in the Python environment used for Gemma, with a CUDA-enabled torch build.
+torch>=2.6,<3
+transformers>=5.10.1,<6
+accelerate>=1,<2
+safetensors>=0.4
+pillow>=10
+json-repair>=0.30
+# Install bitsandbytes separately to use --gemma-4bit.

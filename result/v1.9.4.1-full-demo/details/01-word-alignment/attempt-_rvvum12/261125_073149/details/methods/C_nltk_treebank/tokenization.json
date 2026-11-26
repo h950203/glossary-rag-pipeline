@@ -1,0 +1,19 @@
+{
+  "method": "C_nltk_treebank",
+  "profile": {
+    "en": "nltk_treebank",
+    "ko": "kiwi_compound",
+    "description": "영어만 NLTK Treebank로 교체"
+  },
+  "tokenizer_signature": "5679757644bf9ee402f7d464b3aae90b93a669f73d60085d291549d7cb5434d7",
+  "packages": {
+    "kiwipiepy": "0.24.1",
+    "spacy": "3.8.14",
+    "nltk": "3.10.4",
+    "torch": "2.5.1+cu121",
+    "numpy": "1.26.4",
+    "transformers": "5.12.1",
+    "huggingface-hub": "1.26.0",
+    "tokenizers": "0.22.2"
+  }
+}

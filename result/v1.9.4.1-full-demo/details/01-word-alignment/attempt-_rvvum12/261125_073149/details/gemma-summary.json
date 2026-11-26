@@ -1,0 +1,30 @@
+{
+  "settings": {
+    "min_similarity": 0.5,
+    "min_margin": 0.03,
+    "max_candidates": 3,
+    "batch_size": 8,
+    "model": "google/gemma-4-12B-it",
+    "revision": "43c9d014b231474fa7212dbb48a762566c2b255d",
+    "cache_dir": null,
+    "local_files_only": true,
+    "load_in_4bit": true
+  },
+  "revision": "43c9d014b231474fa7212dbb48a762566c2b255d",
+  "limit": 0,
+  "methods": {
+    "C_nltk_treebank": {
+      "sentences": 10,
+      "baseline_pairs": 47,
+      "final_pairs": 43,
+      "reviewed_sentences": 9,
+      "fallback_sentences": 0,
+      "offered_candidates": 26,
+      "changed_sentences": 9,
+      "selected_candidates": 9,
+      "removed_pairs": 13,
+      "term_pairs": "term-pairs.jsonl",
+      "decisions": "details/gemma-decisions.jsonl"
+    }
+  }
+}
